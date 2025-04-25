@@ -28,6 +28,7 @@ const Login = () => {
   };
 
   return (
+    <div className="login">
     <div className="login-container">
       <h2>Login</h2>
       {error && <p className="error-message">{error}</p>}
@@ -47,7 +48,10 @@ const Login = () => {
           required
         />
         <button type="submit">Login</button>
+        <p>Don't have an account? <span onClick={() => navigate('/signup')} style={{ color: 'green', cursor: 'pointer' }}>Signup here</span></p>
+
       </form>
+    </div>
     </div>
   );
 };

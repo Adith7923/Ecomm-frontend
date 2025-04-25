@@ -1,8 +1,14 @@
+
+body {
+  display: block;
+}
 .products-container {
     padding: 40px 30px;
     margin: 20px auto;
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    display: block;
+    
   }
   
   .products-container h2 {
